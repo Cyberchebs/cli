@@ -1,0 +1,39 @@
+ body {
+    background: #eee;
+
+    
+
+}
+
+
+ .content {
+    margin-top: 2remm;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    max-height: 270px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+ .open{
+    max-height: 700px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+ .showmore {
+    background: blue;
+    color: black;
+    size: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 45%;
+    cursor: pointer;
+}
